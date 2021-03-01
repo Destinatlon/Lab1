@@ -1,4 +1,5 @@
 function change(){
-var layout = document.getElementById("hello").value;
-document.getElementById("hello2").value = layout;
+let layout = document.getElementById("hello").value;
+let helloWorld = "Hello, "+layout+"!"; 
+document.getElementById("hello2").value = helloWorld;
 }
