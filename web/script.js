@@ -1,5 +1,4 @@
 function change(){
 var layout = document.getElementById("hello").value;
-alert("Hello"+layout+"!");
-
+document.getElementById("hello2").value = layout;
 }
