@@ -1,2 +1,5 @@
-var layout = document.getElementById("hello");
-layout.innerHTML = "Hello, World!";
+function change(){
+var layout = document.getElementById("hello").value;
+alert("Hello"+layout+"!");
+
+}
